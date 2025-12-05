@@ -38,25 +38,24 @@ const SkillsList = () => {
 
   const skills = {
     "Full-Stack Development": [
-    "Backend development with .NET, Spring Boot, Node.js & Laravel",
-    "Frontend development with Angular & JavaScript/TypeScript",
-    "REST API design & integration",
-    "Microservices architecture",
-  ],
+      "Backend development with .NET, Spring Boot, Node.js & Laravel",
+      "Frontend development with Angular & JavaScript/TypeScript",
+      "REST API design & integration",
+      "Microservices architecture",
+    ],
 
- 
+  
+    "DevOps & Automation": [
+      "CI/CD pipelines with Jenkins",
+      "Containerization with Docker & Docker Compose",
+      "Monitoring with Prometheus & Grafana",
+      "Code quality & artifact management (SonarQube, Nexus)",
+    ],
 
-  "DevOps & Automation": [
-    "CI/CD pipelines with Jenkins",
-    "Containerization with Docker & Docker Compose",
-    "Monitoring with Prometheus & Grafana",
-    "Code quality & artifact management (SonarQube, Nexus)",
-  ],
-
-  "Software Testing": [
-    "Unit testing with JUnit, XUnit & Mockito",
-    "Automation of test cycles in CI/CD",
-  ],
+    "Software Testing": [
+      "Unit testing with JUnit, XUnit & Mockito",
+      "Automation of test cycles in CI/CD",
+    ],
   };
 
   const toggleItem = (item: string) => {
